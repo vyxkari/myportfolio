@@ -1,5 +1,7 @@
 import Navigation from "@/components/navigation"
 import Hero from "@/components/hero"
+import Skills from "@/components/skills"
+import Projects from "@/components/projects"
 import Tour from "@/components/tour"
 import Certifications from "@/components/certifications"
 import Journal from "@/components/journal"
@@ -12,6 +14,8 @@ export default function PortfolioPage() {
       <Navigation />
       <main>
         <Hero />
+        <Skills />
+        <Projects />
         <Tour />
         <Certifications />
         <Journal />

@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react"
+
 import Image from "next/image"
 
 export default function Hero() {
@@ -48,15 +48,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden lg:block">
-        <a
-          href="#about"
-          aria-label="Scroll down"
-          className="p-2 rounded-full hover:bg-secondary/50 transition-colors"
-        >
-          <ArrowDown className="h-6 w-6 text-muted-foreground" />
-        </a>
-      </div>
+
     </section>
   )
 }

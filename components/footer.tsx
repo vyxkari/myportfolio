@@ -1,12 +1,11 @@
 "use client"
 
-import { Github, Linkedin, Facebook, Mail } from "lucide-react"
+import { Github, Facebook, Mail } from "lucide-react"
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/vyxkari", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
   { icon: Facebook, href: "https://www.facebook.com/mixokiroxiro", label: "Facebook" },
-  { icon: Mail, href: "mailto:karen.refamonte@hcdc.edu.ph", label: "Email" },
+  { icon: Mail, href: "mailto:karenrefamonte7@gmail.com", label: "Email" },
 ]
 
 export default function Footer() {

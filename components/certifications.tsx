@@ -6,13 +6,13 @@ const certifications = [
     title: "Information Management",
     issuer: "CodeChum",
     date: "May 16, 2025",
-    image: "/Codechum.jpg",
+    image: "/TOOOUR.jpg", 
   },
   {
     title: "Certification of Completion",
     issuer: "World of Adventures Travels and Tourist",
     date: "November 22, 2025",
-    image: "/TOOOUR.jpg",
+    image: "/Codechum.jpg",
   },
 ]
 
